@@ -1,0 +1,71 @@
+body{
+  background:linear-gradient(135deg,#0f20027,#203a43,#2c5364);
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+ height: 120vh;
+ color:white;
+ 
+ 
+.contect{
+  align-items: center;
+  justify-content:center;
+  background-color:rgb(3, 1, 39);
+  height: 100%;
+  width: 100%;
+  
+  text-align: center;
+}
+.contect img{
+  border-radius: 50%;
+  border: 3px solid #00aaff;
+  height: 20%;
+  width;
+  box-shadow: 0 4px 8px rgba(193, 7, 7, 0.5);
+}
+nav{display: flex;
+  padding-right: 1%;
+  color: white;
+  background-color: rgb(3, 19, 51);
+  font-size: large bol;
+  font-weight: 600;
+  margin-left : auto;
+  height: 50px;
+}
+.navbar a{
+  
+  display: flex;
+  padding-right: 2px;
+  gap:2px;
+  color: rgb(153, 205, 31);
+  background-color: rgb(3, 19, 51);
+  font-size: large ;
+  font-weight: 600;
+  margin-left:auto;
+   align-items: center;
+}
+nav :hover{
+  color: #00aaff;
+}
+
+.contact-page{
+  border-radius: 50%;
+  padding: 20px;
+  font-size: xx-large;
+}
+li{
+  align-items: center;
+  justify-content: first baseline; 
+}
+button{
+  
+  font-weight: 900;
+  background-color:rgb(221, 253, 10);
+}
+p{
+  text-align: center;
+}
+.contect :hover{
+  color: rgb(255, 181, 9);
+}
